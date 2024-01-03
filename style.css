@@ -282,9 +282,15 @@ p:not(.header p) {
   padding-block: 3rem;
 }
 
-@media(min-width: 56.25em) {
+@media (min-width: 56.25em) {
   .padding-block-700 {
     padding-block: 4rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .padding-block-700 {
+    padding-block: 7.5rem;
   }
 }
 
