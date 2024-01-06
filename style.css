@@ -64,6 +64,7 @@ picture {
   --ff-primary: 'Sora', sans-serif;
   --ff-secondary: Arial, Helvetica, sans-serif;
 
+  --fs-300: clamp(.5rem, 3.5vw, 1rem);
   --fs-400: clamp(1rem, 4vw, 1.5rem);
   --fs-700: clamp(2rem, 4vw, 4rem);
   --fs-800: clamp(2rem, 7vw, 4rem);
@@ -77,6 +78,7 @@ picture {
 
 @media (min-width: 50em) {
   :root {
+    --fs-300: clamp(1rem, 2vw, 1.5rem);
     --fs-400: clamp(1rem, 2vw, 1.5rem);
     --fs-700: clamp(1.75rem, 3vw, 2.5rem);
     --fs-800: clamp(2.75rem, 5.75vw, 4.234rem);
@@ -336,6 +338,7 @@ p {
 /* FOOTER */
 
 footer {
+  font-size: var(--fs-300);
   text-align: center;
   background-color: #191A1D;
   padding-block: 5rem 3.5rem;
