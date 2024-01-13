@@ -67,7 +67,7 @@ picture {
   --fs-300: clamp(1rem, 4vw, 1rem);
   --fs-400: clamp(1rem, 4vw, 1.5rem);
   --fs-700: clamp(2rem, 4vw, 4rem);
-  --fs-800: clamp(2rem, 7vw, 4rem);
+  --fs-800: clamp(2.25rem, 10vw, 4rem);
 
   --fw-regular: 500;
   --fw-medium: 600;
@@ -81,7 +81,7 @@ picture {
     --fs-300: clamp(1rem, 2vw, 1.5rem);
     --fs-400: clamp(1rem, 2vw, 1.5rem);
     --fs-700: clamp(1.75rem, 3vw, 2.5rem);
-    --fs-800: clamp(2.75rem, 5.75vw, 4.234rem);
+    --fs-800: clamp(2.75rem, 5.75vw, 4.233rem);
   }
 }
 
